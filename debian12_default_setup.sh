@@ -8,7 +8,7 @@ apt-get update && apt-get upgrade -y
 
 # Nützliche Pakete installieren
 echo "Nützliche Pakete installieren: curl, bpytop, net-tools, iftop, htop, git, vim, sudo"
-apt-get install -y curl bpytop net-tools iftop htop git vim sudo ufw
+apt-get install -y curl bpytop net-tools iftop htop git vim sudo
 
 # Alias hinzufügen
 echo "Alias für 'll' hinzufügen..."

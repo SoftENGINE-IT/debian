@@ -44,5 +44,5 @@ Das Skript führt folgende Aktionen aus:
 2. Mach das Skript ausführbar und führe es aus:
 
 ```bash
-chmod +x  debian12_default_setup.sh
-./ debian12_default_setup.sh
+chmod +x debian12_default_setup.sh
+./debian12_default_setup.sh

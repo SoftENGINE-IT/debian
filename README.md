@@ -2,6 +2,16 @@
 
 Dieses Skript richtet ein Debian 12 System standardmäßig ein. Es installiert nützliche Tools, fügt hilfreiche Konfigurationen hinzu und bereitet das System für die tägliche Nutzung und Administration vor.
 
+## Verwendung
+
+1. Lade das Skript herunter oder klone dieses Repository.
+2. Mach das Skript ausführbar und führe es aus:
+
+```bash
+chmod +x debian12_default_setup.sh
+./debian12_default_setup.sh
+```
+
 ## Funktionen des Skripts
 
 Das Skript führt folgende Aktionen aus:
@@ -37,12 +47,3 @@ Das Skript führt folgende Aktionen aus:
 
 8. **Netzwerk-Info**:
     - Fügt einen Alias `netinfo` hinzu, um mit einem Befehl die Netzwerk-Konfiguration anzeigen zu lassen (`ifconfig`).
-
-## Verwendung
-
-1. Lade das Skript herunter oder klone dieses Repository.
-2. Mach das Skript ausführbar und führe es aus:
-
-```bash
-chmod +x debian12_default_setup.sh
-./debian12_default_setup.sh

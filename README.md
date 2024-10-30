@@ -10,6 +10,8 @@ Dieses Skript richtet ein Debian 12 System standardmäßig ein. Es installiert n
 ```bash
 chmod +x debian12_default_setup.sh
 ./debian12_default_setup.sh
+cd ..
+rm -rf debian_default_setup/
 ```
 
 ## Funktionen des Skripts

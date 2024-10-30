@@ -8,6 +8,7 @@ Dieses Skript richtet ein Debian 12 System standardmäßig ein. Es installiert n
 2. Mach das Skript ausführbar und führe es aus:
 
 ```bash
+cd debian_default_setup/
 chmod +x debian12_default_setup.sh
 ./debian12_default_setup.sh
 cd ..
